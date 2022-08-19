@@ -26,7 +26,7 @@
    <div style="display: inline-block; _display: inline;" id="category-title"><span class="strcolor2">　歌手名</span>
     <select name="category" id="category" onchange="changeCategory()">
       <option value="non">選択なし</option>
-      <option value="例">例</option>
+      <option value="あいみょん">あいみょん</option>
     </select>
    </div>
 
@@ -57,41 +57,36 @@
        </thead>
 
        <tbody class="list">
-
-
   <!--歌枠-->
 
-        <tr class="len sing 曲名（空白なし） 歌手名" id="B1-1-1">
+        <tr class="len sing サリシノハラ みきとP" id="B1-1-1">
           <td class ="checkbox"><input type="checkbox" onclick="fav();" class="checkbox_check" id="1-1-1"></td>
-          <td class="Ж 曲名（空白なし） 曲名検索用差分">曲名</td>
-          <td class="singer A2">歌手名</td>
-          <td class="date A3">2022/**/**</td>
-          <td class="title A4"><button class="btn" onclick="window.open('https://youtu.be/DRT87iLxK6Q?t=6m1s', 'blank')">配信タイトル</button></td>
+          <td class="Ж サリシノハラ さりしのはら">サリシノハラ</td>
+          <td class="singer A2">みきとP</td>
+          <td class="date A3">2018/10/9</td>
+          <td class="title A4"><button class="btn" onclick="window.open('https://youtu.be/DRT87iLxK6Q?t=6m1s', 'blank')">【歌配信】ボカロ、J-POP、アニソンたくさん歌うよ〜！！#2【VTuber】</button></td>
         </tr>
 
 
       <!--歌ってみた-->
 
-      <!--<tr class="len 曲名（空白なし） 歌手名" id="B2-1">-->
-        <!--<td class ="checkbox"><input type="checkbox" onclick="fav();" class="checkbox_check" id="2-1"></td>-->
-        <!--<td class="Ж 曲名（空白なし） 曲名検索用差分">曲名</td>-->
-        <!--<td class="singer A2">歌手名</td>-->
-        <!--<td class="date A3">2022/**/**</td>-->
-        <!--<td class="title A4"><button class="btn" onclick="window.open('https://youtu.be/w_i0vzngMIo', 'blank')">動画タイトル</button></td>-->
-      <!--</tr>-->
-
-
+      <tr class="len エメラルドシティ 西沢さんP" id="B2-1">
+        <td class ="checkbox"><input type="checkbox" onclick="fav();" class="checkbox_check" id="2-1"></td>
+        <td class="Ж エメラルドシティ えめらるどしてぃ ">エメラルドシティ</td>
+        <td class="singer A2">西沢さんP</td>
+        <td class="date A3">2018/9/29</td>
+        <td class="title A4"><button class="btn" onclick="window.open('https://youtu.be/w_i0vzngMIo', 'blank')">エメラルドシティ / emerald city - TOKOTOKO(西沢さんP) feat.水瓶ミア【歌ってみた】</button></td>
+      </tr>
 
       <!--オリ曲-->
 
-      <!--<tr class="len 曲名（空白なし） 歌手名" id="B3-1">-->
-        <!--<td class ="checkbox"><input type="checkbox" onclick="fav();" class="checkbox_check" id="3-1"></td>-->
-        <!--<td class="Ж 曲名（空白なし） 曲名検索用差分">曲名</td>-->
-        <!--<td class="singer A2">歌手名</td>-->
-        <!--<td class="date A3">20**/**/**</td>-->
-        <!--<td class="title A4"><button class="btn" onclick="window.open('https://youtu.be/iN139b5hOT8', 'blank')">動画タイトル</button></td>-->
-      <!--</tr>-->
-
+      <tr class="len ムーンライト。 水瓶ミア" id="B3-1">
+        <td class ="checkbox"><input type="checkbox" onclick="fav();" class="checkbox_check" id="3-1"></td>
+        <td class="Ж ムーンライト。 むーんらいと">ムーンライト。</td>
+        <td class="singer A2">水瓶ミア</td>
+        <td class="date A3">2019/4/8</td>
+        <td class="title A4"><button class="btn" onclick="window.open('https://youtu.be/iN139b5hOT8', 'blank')">ムーンライト。</button></td>
+      </tr>
      </tbody>
     </table>
    </div>
@@ -113,7 +108,7 @@
 
   var songlist = [
     {cd:"non", label:"選択なし", class:"non"},
-    {cd:"曲名（空白なし）", label:"曲名", class:"歌手名"},
+    {cd:"嗚呼、素晴らしきニャン生", label:"嗚呼、素晴らしきニャン生", class:"Nem"},
    ];
 
  var AmountElements = document.getElementsByClassName("len");
