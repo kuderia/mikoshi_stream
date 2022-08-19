@@ -3,14 +3,14 @@ font-size: small;
 width: 100%;
 margin:0;
 padding:0;
-background-color: #94adda;
+background-color: #ffa500;
 }
 
 div.fav{
  margin:0;
  padding:0;
  background-image:url('/image.jpg');
- background-position:left -135px;
+ background-position:-80px -150px;
  background-size:auto auto;
  background-repeat: repeat;
 }
@@ -20,15 +20,15 @@ h1#strcolor1{
 
 margin:0;
 padding:0;
-color: #043c78;
--webkit-text-stroke: 0.5px #001e43;
+color: #ff8c00;
+-webkit-text-stroke: 0.5px #b22222;
 }
 
 .strcolor2{
 font-weight:bolder;
  font-size: medium;
-color:#001e43;
--webkit-text-stroke: 0.7px #00afcc;
+color:#ff8c00;
+-webkit-text-stroke: 0.7px #b22222;
 }
 
 
@@ -55,7 +55,7 @@ select#category-second{
 
 div#users{
 
-background-color: #c6e2ff;
+background-color: #f4a460;
 margin:0;
 padding:0;
 }
@@ -67,7 +67,7 @@ table {
 }
 
 th,td {
-   background-color: #c6e2ff;
+   background-color: #f4a460;
    border: solid 1px;   /* 枠線指定 */
 }
 
@@ -78,7 +78,7 @@ th,td {
 }
 
 .checkbox{
-  background-color: #c6e2ff;
+  background-color: #f4a460;
   border: 0px none;
 }
 
@@ -126,7 +126,7 @@ button.btn{
 text-align: left;
 width: 100%;
 border: none;
-background-color: #9eceff;
+background-color: #ff8c00;
 }
 
 .title{
