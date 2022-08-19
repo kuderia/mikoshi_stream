@@ -10,7 +10,7 @@ div.fav{
  margin:0;
  padding:0;
  background-image:url('/image.jpg');
- background-position:-80px -150px;
+ background-position:-150px -150px;
  background-size:auto auto;
  background-repeat: repeat;
 }
