@@ -3,7 +3,7 @@ font-size: small;
 width: 100%;
 margin:0;
 padding:0;
-background-color: #ffa500;
+background-color: #ff8c00;
 }
 
 div.fav{
@@ -55,7 +55,7 @@ select#category-second{
 
 div#users{
 
-background-color: #f4a460;
+background-color: #e18e53;
 margin:0;
 padding:0;
 }
@@ -67,7 +67,7 @@ table {
 }
 
 th,td {
-   background-color: #f4a460;
+   background-color: #e18e53;
    border: solid 1px;   /* 枠線指定 */
 }
 
@@ -78,7 +78,7 @@ th,td {
 }
 
 .checkbox{
-  background-color: #f4a460;
+  background-color: #e18e53;
   border: 0px none;
 }
 
@@ -126,7 +126,7 @@ button.btn{
 text-align: left;
 width: 100%;
 border: none;
-background-color: #ff8c00;
+background-color: #d6763e;
 }
 
 .title{

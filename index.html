@@ -26,7 +26,7 @@
    <div style="display: inline-block; _display: inline;" id="category-title"><span class="strcolor2">　歌手名</span>
     <select name="category" id="category" onchange="changeCategory()">
       <option value="non">選択なし</option>
-      <option value="あいみょん">あいみょん</option>
+      <option value="Whiteberry">Whiteberry</option>
     </select>
    </div>
 
@@ -42,10 +42,6 @@
      　<div style="display: inline-block; _display: inline;" id="radiotitle3"><input type="radio" name="radio" id="radio3" onclick="radiocheck()"><span class="strcolor2">配信日順</span></div>
      </div>
   </div>
-
-<p>たらんちゃん歌枠来るまで全裸待機中</p>
-</br><p>下記は例</p>
-
      <div id="users">
       <table>
        <thead>
@@ -61,34 +57,35 @@
        <tbody class="list">
   <!--歌枠-->
 
-        <tr class="len sing サリシノハラ みきとP" id="B1-1-1">
+        <tr class="len sing 夏祭り Whiteberry" id="B1-1-1">
           <td class ="checkbox"><input type="checkbox" onclick="fav();" class="checkbox_check" id="1-1-1"></td>
-          <td class="Ж サリシノハラ さりしのはら">サリシノハラ</td>
-          <td class="singer A2">みきとP</td>
-          <td class="date A3">2018/10/9</td>
-          <td class="title A4"><button class="btn" onclick="window.open('https://youtu.be/DRT87iLxK6Q?t=6m1s', 'blank')">【歌配信】ボカロ、J-POP、アニソンたくさん歌うよ〜！！#2【VTuber】</button></td>
+          <td class="Ж 夏祭り なつまつり">夏祭り</td>
+          <td class="singer A2">Whiteberry</td>
+          <td class="date A3">2022/8/31</td>
+          <td class="title A4"><button class="btn" onclick="window.open('https://youtu.be/dhgjVcXNxuU?t=6m1s', 'blank')">【＃たらん祭り】夏祭り先輩と思いっきり楽しむぞ！！【九楽ライ/魔光リサ/神輿たらん】</button></td>
         </tr>
 
 
       <!--歌ってみた-->
 
-      <tr class="len エメラルドシティ 西沢さんP" id="B2-1">
-        <td class ="checkbox"><input type="checkbox" onclick="fav();" class="checkbox_check" id="2-1"></td>
-        <td class="Ж エメラルドシティ えめらるどしてぃ ">エメラルドシティ</td>
-        <td class="singer A2">西沢さんP</td>
-        <td class="date A3">2018/9/29</td>
-        <td class="title A4"><button class="btn" onclick="window.open('https://youtu.be/w_i0vzngMIo', 'blank')">エメラルドシティ / emerald city - TOKOTOKO(西沢さんP) feat.水瓶ミア【歌ってみた】</button></td>
-      </tr>
+      <!--<tr class="len エメラルドシティ 西沢さんP" id="B2-1">-->
+        <!--<td class ="checkbox"><input type="checkbox" onclick="fav();" class="checkbox_check" id="2-1"></td>-->
+        <!--<td class="Ж エメラルドシティ えめらるどしてぃ ">エメラルドシティ</td>-->
+        <!--<td class="singer A2">西沢さんP</td>-->
+        <!--<td class="date A3">2018/9/29</td>-->
+        <!--<td class="title A4"><button class="btn" onclick="window.open('https://youtu.be/w_i0vzngMIo', 'blank')">エメラルドシティ / emerald city - TOKOTOKO(西沢さんP) feat.水瓶ミア【歌ってみた】</button></td>-->
+      <!--</tr>-->
 
       <!--オリ曲-->
 
-      <tr class="len ムーンライト。 水瓶ミア" id="B3-1">
-        <td class ="checkbox"><input type="checkbox" onclick="fav();" class="checkbox_check" id="3-1"></td>
-        <td class="Ж ムーンライト。 むーんらいと">ムーンライト。</td>
-        <td class="singer A2">水瓶ミア</td>
-        <td class="date A3">2019/4/8</td>
-        <td class="title A4"><button class="btn" onclick="window.open('https://youtu.be/iN139b5hOT8', 'blank')">ムーンライト。</button></td>
-      </tr>
+      <!--<tr class="len ムーンライト。 水瓶ミア" id="B3-1">-->
+        <!--<td class ="checkbox"><input type="checkbox" onclick="fav();" class="checkbox_check" id="3-1"></td>-->
+        <!--<td class="Ж ムーンライト。 むーんらいと">ムーンライト。</td>-->
+        <!--<td class="singer A2">水瓶ミア</td>-->
+        <!--<td class="date A3">2019/4/8</td>-->
+        <!--<td class="title A4"><button class="btn" onclick="window.open('https://youtu.be/iN139b5hOT8', 'blank')">ムーンライト。</button></td>-->
+      <!--</tr>-->
+
      </tbody>
     </table>
    </div>
@@ -110,7 +107,7 @@
 
   var songlist = [
     {cd:"non", label:"選択なし", class:"non"},
-    {cd:"嗚呼、素晴らしきニャン生", label:"嗚呼、素晴らしきニャン生", class:"Nem"},
+    {cd:"夏祭り", label:"夏祭り", class:"Whiteberry"},
    ];
 
  var AmountElements = document.getElementsByClassName("len");
