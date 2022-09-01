@@ -26,7 +26,9 @@
    <div style="display: inline-block; _display: inline;" id="category-title"><span class="strcolor2">　歌手名</span>
     <select name="category" id="category" onchange="changeCategory()">
       <option value="non">選択なし</option>
+      <option value="SHISHAMO">SHISHAMO</option>
       <option value="Whiteberry">Whiteberry</option>
+      <option value="MAHO堂">MAHO堂</option>
     </select>
    </div>
 
@@ -59,7 +61,7 @@
 
         <tr class="len sing 夏祭り Whiteberry" id="B1-1-1">
           <td class ="checkbox"><input type="checkbox" onclick="fav();" class="checkbox_check" id="1-1-1"></td>
-          <td class="Ж 夏祭り なつまつり">夏祭り</td>
+          <td class="Ж 夏祭り なつまつり">夏祭り with 九楽ライ, 魔光リサ</td>
           <td class="singer A2">Whiteberry</td>
           <td class="date A3">2022/8/31</td>
           <td class="title A4"><button class="btn" onclick="window.open('https://youtu.be/dhgjVcXNxuU?t=1h21m45s', 'blank')">【＃たらん祭り】夏祭り先輩と思いっきり楽しむぞ！！【九楽ライ/魔光リサ/神輿たらん】</button></td>
@@ -107,6 +109,8 @@
 
   var songlist = [
     {cd:"non", label:"選択なし", class:"non"},
+    {cd:"おジャ魔女カーニバル!!", label:"おジャ魔女カーニバル!!", class:"MAHO堂"},
+    {cd:"君と夏フェス", label:"君と夏フェス", class:"SHISHAMO"},
     {cd:"夏祭り", label:"夏祭り", class:"Whiteberry"},
    ];
 
