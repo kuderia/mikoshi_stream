@@ -27,6 +27,7 @@
     <select name="category" id="category" onchange="changeCategory()">
       <option value="non">選択なし</option>
       <option value="SHISHAMO">SHISHAMO</option>
+      <option value="放課後ティータイム">放課後ティータイム</option>
       <option value="Whiteberry">Whiteberry</option>
       <option value="MAHO堂">MAHO堂</option>
     </select>
@@ -65,6 +66,30 @@
           <td class="singer A2">Whiteberry</td>
           <td class="date A3">2022/8/31</td>
           <td class="title A4"><button class="btn" onclick="window.open('https://youtu.be/dhgjVcXNxuU?t=1h21m45s', 'blank')">【＃たらん祭り】夏祭り先輩と思いっきり楽しむぞ！！【九楽ライ/魔光リサ/神輿たらん】</button></td>
+        </tr>
+
+        <tr class="len sing おジャ魔女カーニバル!!  MAHO堂" id="B1-2-1">
+          <td class ="checkbox"><input type="checkbox" onclick="fav();" class="checkbox_check" id="1-2-1"></td>
+          <td class="Ж おジャ魔女カーニバル!!  おじゃまじょかーにばる!!">おジャ魔女カーニバル!! </td>
+          <td class="singer A2">MAHO堂</td>
+          <td class="date A3">2022/09/01</td>
+          <td class="title A4"><button class="btn" onclick="window.open('https://youtu.be/kMWkRUNoGL4?t=5m10s', 'blank')">【歌枠】はじめてお歌うたうよ！【新人VTuber/神輿たらん/Re:AcT】</button></td>
+        </tr>
+
+        <tr class="len sing 君と夏フェス SHISHAMO" id="B1-2-2">
+          <td class ="checkbox"><input type="checkbox" onclick="fav();" class="checkbox_check" id="1-2-2"></td>
+          <td class="Ж 君と夏フェス きみとなつふぇす">君と夏フェス</td>
+          <td class="singer A2">SHISHAMO</td>
+          <td class="date A3">2022/09/01</td>
+          <td class="title A4"><button class="btn" onclick="window.open('https://youtu.be/kMWkRUNoGL4?t=13m23s', 'blank')">【歌枠】はじめてお歌うたうよ！【新人VTuber/神輿たらん/Re:AcT】</button></td>
+        </tr>
+
+        <tr class="len sing Don'tsaylazy 放課後ティータイム" id="B1-2-3">
+          <td class ="checkbox"><input type="checkbox" onclick="fav();" class="checkbox_check" id="1-2-3"></td>
+          <td class="Ж Don't say lazy  Don'tsaylazy どんとせいれいじー">Don't say "lazy"</td>
+          <td class="singer A2">放課後ティータイム</td>
+          <td class="date A3">2022/09/01</td>
+          <td class="title A4"><button class="btn" onclick="window.open('https://youtu.be/kMWkRUNoGL4?t=21m56s', 'blank')">【歌枠】はじめてお歌うたうよ！【新人VTuber/神輿たらん/Re:AcT】</button></td>
         </tr>
 
 
@@ -111,6 +136,7 @@
     {cd:"non", label:"選択なし", class:"non"},
     {cd:"おジャ魔女カーニバル!!", label:"おジャ魔女カーニバル!!", class:"MAHO堂"},
     {cd:"君と夏フェス", label:"君と夏フェス", class:"SHISHAMO"},
+    {cd:"Don'tsaylazy", label:"Don't say \"lazy\"", class:"放課後ティータイム"},
     {cd:"夏祭り", label:"夏祭り", class:"Whiteberry"},
    ];
 
